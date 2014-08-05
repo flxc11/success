@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{%$lngpack.sitename%}</title>
+	<meta name="keywords" content="{%$lngpack.keyword%}" />
+	<meta name="description" content="{%$lngpack.description%}" />
+	{%link file="cn/public/head.html"%}
+</head>
+<body>
+	{%link file="cn/public/top.html"%}
+	<div class="in-banner"><img src="{%$rootpath%}/images/imgcompany.jpg" alt=""></div>
+	<div class="main bgmain main-re">
+		<div class="in-main clearfix">
+			<div class="main-r">
+				<div class="position">
+					<span class="cur-psi">您现在的位置：{%list name=path class=type:type,id:$type.tid%}</span>
+					<span class="cur-colname">{%$type.typename%}</span>
+				</div>
+				<div class="news-list">
+					
+				</div>
+			</div>
+			<div class="main-l">
+				<div class="column">
+					<h2>集团介绍</h2>
+					<h3>About Us</h3>
+					<ul>
+						<li class="hover"><a href="#">公司简介</a></li>
+						<li><a href="#">企业文化</a></li>
+						<li><a href="#">组织机构</a></li>
+						<li><a href="#">集团荣誉</a></li>
+					</ul>
+				</div>
+				<div class="left-contact"><img src="{%$rootpath%}/images/imgcontact.jpg" alt=""></div>
+				<div class="group-web">
+					<h2>集团下属网站</h2>
+					<ul>
+						<li><a href="#">Success Headwear</a></li>
+						<li><a href="#">Success Headwear</a></li>
+						<li><a href="#">Success Headwear</a></li>
+						<li><a href="#">Success Headwear</a></li>
+						<li><a href="#">Success Headwear</a></li>
+						<li><a href="#">Success Headwear</a></li>
+						<li><a href="#">Success Headwear</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	{%link file="cn/public/footer.html"%}
+</body>
+</html>

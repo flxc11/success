@@ -1,0 +1,7 @@
+{%get name=path class=type:type,id:$current%}
+  {%forlist from=$array key=i%} 
+	{%if $array[i].typepic != "" %}
+		  <img src="{%$rootdir%}{%$array[i].typepic%}" alt="">
+	{%/if%}
+  {%/forlist%}
+{%/get%}

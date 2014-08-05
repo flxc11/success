@@ -1,0 +1,7 @@
+{%if count($array) > 0%}
+<table class="table">
+    {%forlist from=$array key=i%}
+    <td class="tid{%$array[i].tid%}"><a href="{%$array[i].link%}">{%$array[i].typename%}</span></a></td>
+    {%/forlist%}
+</dl>
+{%/if%}
